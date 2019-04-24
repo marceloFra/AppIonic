@@ -1,0 +1,18 @@
+<ion-header>
+
+</ion-header>
+
+<ion-content padding color="dark">
+    <br>
+    <br>
+    <br>
+    <img src="assets\ITDATA.png">
+    <ion-input type="text" [(ngModel)]="user" placeholder="user">
+        <ion-icon name="person"></ion-icon>
+    </ion-input>
+    <ion-input type="password" [(ngModel)]="password" placeholder="password">
+        <ion-icon name="lock"></ion-icon>
+    </ion-input>
+    <ion-button expand="block" (click)="Ingresar()">Iniciar</ion-button>
+    <ion-button color="warning" expand="block" (click)=" presentAlert('mensaje')">Mensaje</ion-button>
+</ion-content>
